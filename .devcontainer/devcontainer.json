@@ -23,5 +23,6 @@
         "streetsidesoftware.code-spell-checker",
         "vadimcn.vscode-lldb"
     ],
+    "remoteUser": "vscode",
     "postCreateCommand": "pipenv sync --dev"
 }
