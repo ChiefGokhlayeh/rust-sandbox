@@ -17,9 +17,9 @@
         "davidanson.vscode-markdownlint",
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
+        "matklad.rust-analyzer",
         "ms-azuretools.vscode-docker",
         "mutantdino.resourcemonitor",
-        "rust-lang.rust",
         "streetsidesoftware.code-spell-checker",
         "vadimcn.vscode-lldb"
     ],
