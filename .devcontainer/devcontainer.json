@@ -6,7 +6,6 @@
     "runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
     "settings": {
         "terminal.integrated.shell.linux": "/bin/zsh",
-        "terminal.integrated.shellArgs.linux": ["-c", "pipenv shell"],
         "lldb.executable": "/usr/bin/lldb",
         "files.watcherExclude": {
             "**/target/**": true
@@ -23,6 +22,5 @@
         "streetsidesoftware.code-spell-checker",
         "vadimcn.vscode-lldb"
     ],
-    "remoteUser": "vscode",
-    "postCreateCommand": "pipenv sync --dev"
+    "remoteUser": "vscode"
 }
